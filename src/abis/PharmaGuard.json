@@ -1,0 +1,19 @@
+{
+  "address": "0x1234567890123456789012345678901234567890",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getPharmacy",
+      "outputs": [{"name": "", "type": "address"}],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{"name": "name", "type": "string"}, {"name": "location", "type": "string"}],
+      "name": "initialPharmacy",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
+}
